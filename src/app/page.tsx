@@ -1,5 +1,5 @@
 "use client";
-import PaymentButton from "@/components/PaymentButton";
+// import PaymentButton from "@/components/PaymentButton";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
           All transactions are simulated and not for real-world financial use.
         </p>
       </div>
-      <PaymentButton />
+      {/* <PaymentButton /> */}
     </div>
   );
 }
